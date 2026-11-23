@@ -1,0 +1,10 @@
+# Обычный прогон школьной мелодии. voice0 = 2026, result = 42.
+set 7
+mul 289
+add 3
+save 0
+xor 2026
+jnz coda
+add 42
+coda:
+end

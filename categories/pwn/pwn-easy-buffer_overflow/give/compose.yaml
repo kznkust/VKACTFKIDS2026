@@ -1,0 +1,16 @@
+name: seventh-face-local
+
+services:
+  seventh-face:
+    build: .
+    platform: linux/amd64
+    ports:
+      - "127.0.0.1:${PORT:-31337}:31337"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    pids_limit: 128
+    mem_limit: 128m
+    cpus: 1.0
