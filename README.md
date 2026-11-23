@@ -24,6 +24,7 @@
 
 #### Misc
 
+- [Слепой дилер](categories/misc/misc-easy-blind_dealer/solution/writeup.md)
 - [NullChoir](categories/misc/misc-hard-nullchoir/solution/writeup.md)
 - [VoidCustoms](categories/misc/misc-hard-voidcustoms/solution/writeup.md)
 
